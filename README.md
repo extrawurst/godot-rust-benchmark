@@ -15,6 +15,8 @@ Task: 6k DrawLine using `sin`/`cos` in a circle
 
 ## Code
 
+### GDScript
+
 ```
 var startTime = OS.get_ticks_usec()
 var start = Vector2(200,200)
@@ -28,6 +30,8 @@ for n in range(cnt):
 
 print("bench: " + String(OS.get_ticks_usec() - startTime))
 ```
+
+### GDNative using godot-rust
 
 ```rust
 let start_time = OS::godot_singleton().get_ticks_usec();
@@ -47,5 +51,7 @@ godot_print!(
     OS::godot_singleton().get_ticks_usec() - start_time
 );
 ```
+
+### Visual Script
 
 ![vsbench](VisScript.png)
