@@ -1,0 +1,11 @@
+[package]
+name = "native-lib"
+version = "0.1.0"
+authors = ["Stephan Dilly <dilly.stephan@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gdnative = "0.9"
+
+[lib]
+crate-type = ["cdylib","staticlib"]
