@@ -6,7 +6,7 @@ Task: 6k DrawLine using `sin`/`cos` in a circle
 
 ## Results
 
-| type|usecs | factor| 
+| type | usecs | slowdown | 
 |---|---|---|
 | gdnative (rust) | ~1000 usec | - |
 | gdscript | ~5000 usec | 5x |
