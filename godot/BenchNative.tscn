@@ -4,6 +4,6 @@
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
-rad = 200.0
 cnt = 6000
 start = Vector2( 250, 250 )
+rad = 200.0
